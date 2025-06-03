@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: midnightblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.score-btn {
+    background-color: darkslategrey;
+    color: lightgray;
+    border-radius: 4px;
+    padding: 2px;
+    border-color: lightgray;
+    border-width: 2px;
+    margin: 0px;
+    /* font-family:'digital-7'; */
+    font-family: 'CursedTimerUlil-Aznm';
+    font-size: 12px;
+}
+
+.score {
+    color: red;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'CursedTimerUlil-Aznm';
+}
+
+.team {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+@font-face{
+ font-family:'digital-7';
+ src: url('digital-7.ttf');
+}
+
+@font-face{
+ font-family:'CursedTimerUlil-Aznm';
+ src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+.timer-container{
+    vertical-align: middle;
+    justify-content: center;
+    font-family: 'CursedTimerUlil-Aznm';
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.status{
+    color:white;
+    font-family: 'CursedTimerUlil-Aznm';
+    padding: 15px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+#timer-btn{
+    background-color: darkgreen;
+    color: white;
+    font-family: 'CursedTimerUlil-Aznm';
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    margin: 5px;
+}
+
+#reset-btn{
+    background-color: darkblue;
+    color: white;
+    font-family: 'CursedTimerUlil-Aznm';
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    margin: 5px;
+}
+
+#timer{
+    margin: 5px;
+}
