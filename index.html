@@ -1,29 +1,34 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <title>basketball-score</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="container">
             <div class="sub-container">
-                <h3 class="team" id="team-home">HOME</h3>
-                <h1 class="score" id="score-home">0</h1>
-                <div>
+                <h2 class="team" id="team-home">HOME</h2>
+                <h3 class="score" id="score-home">0</h3>
+                <div class="score-button">
                     <button class="score-btn" onclick="updateScore(1, 'score-home')">+1</button>
                     <button class="score-btn" onclick="updateScore(2, 'score-home')">+2</button>
                     <button class="score-btn" onclick="updateScore(3, 'score-home')">+3</button>
                 </div>
                 <div class="status" id="status-home"></div>
             </div>
+
             <div class="timer-container">
                 <div id="timer">00:00</div>
-                <button id="timer-btn" onclick="countdown()">Start</button>
+                <button class="timer-btn" id="start-btn" onclick="countdown()">Start</button>
                 <br>
-                <button id="reset-btn" onclick="reset()">Reset</button>
+                <button class="timer-btn" id="reset-btn" onclick="reset()">Reset</button>
             </div>
-            <div>
-                <h3 class="team" id="team-guest">GUEST</h3>
-                <h1 class="score" id="score-guest">0</h1>
-                <div class="sub-container">
+
+            <div class="sub-container">
+                <h2 class="team" id="team-guest">GUEST</h2>
+                <h3 class="score" id="score-guest">0</h3>
+                <div class="score-button">
                     <button class="score-btn" onclick="updateScore(1, 'score-guest')">+1</button>
                     <button class="score-btn" onclick="updateScore(2, 'score-guest')">+2</button>
                     <button class="score-btn" onclick="updateScore(3, 'score-guest')">+3</button>

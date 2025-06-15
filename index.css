@@ -1,6 +1,17 @@
+@font-face{
+ font-family:'CursedTimerUlil-Aznm';
+ src: url('CursedTimerUlil-Aznm.ttf');
+}
+
 body {
     margin: 0;
     background-color: midnightblue;
+    font-family: 'CursedTimerUlil-Aznm';
+}
+
+button {
+    cursor: pointer;
+    font-family: 'CursedTimerUlil-Aznm';
 }
 
 .container {
@@ -22,8 +33,6 @@ body {
     border-color: lightgray;
     border-width: 2px;
     margin: 0px;
-    /* font-family:'digital-7'; */
-    font-family: 'CursedTimerUlil-Aznm';
     font-size: 12px;
 }
 
@@ -34,7 +43,6 @@ body {
     background-color: black;
     padding: 10px;
     border-radius: 5px;
-    font-family: 'CursedTimerUlil-Aznm';
 }
 
 .team {
@@ -43,20 +51,9 @@ body {
     text-align: center;
 }
 
-@font-face{
- font-family:'digital-7';
- src: url('digital-7.ttf');
-}
-
-@font-face{
- font-family:'CursedTimerUlil-Aznm';
- src: url('CursedTimerUlil-Aznm.ttf');
-}
-
 .timer-container{
     vertical-align: middle;
     justify-content: center;
-    font-family: 'CursedTimerUlil-Aznm';
     color: white;
     margin-top: 80px;
     text-align: center;
@@ -64,30 +61,25 @@ body {
 
 .status{
     color:white;
-    font-family: 'CursedTimerUlil-Aznm';
     padding: 15px;
     text-align: center;
     white-space: pre-line;
 }
 
-#timer-btn{
-    background-color: darkgreen;
+.timer-btn{
     color: white;
-    font-family: 'CursedTimerUlil-Aznm';
     text-align: center;
     vertical-align: middle;
     padding: 5px;
     margin: 5px;
 }
 
+#start-btn{
+    background-color: darkgreen;
+}
+
 #reset-btn{
     background-color: darkblue;
-    color: white;
-    font-family: 'CursedTimerUlil-Aznm';
-    text-align: center;
-    vertical-align: middle;
-    padding: 5px;
-    margin: 5px;
 }
 
 #timer{
