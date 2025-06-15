@@ -1,4 +1,4 @@
-const minutes = 1/6;
+const minutes = 1;
 let interval;
 let timerDisplay = document.getElementById('timer');
 const homeEl = document.getElementById('status-home');
