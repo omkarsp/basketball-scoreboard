@@ -3,10 +3,17 @@
  src: url('CursedTimerUlil-Aznm.ttf');
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
 body {
     margin: 0;
     background-color: midnightblue;
     font-family: 'CursedTimerUlil-Aznm';
+    font-weight: 100;
 }
 
 button {
